@@ -7,3 +7,20 @@ syntax on
 highlight Normal ctermbg=black ctermfg=grey
 highlight StatusLine term=none cterm=none ctermfg=black ctermbg=grey
 highlight CursorLine term=none cterm=none ctermfg=none ctermbg=darkgray
+
+"dein.vim プラグインインストール
+if &compatible
+  set nocompatible
+endif
+set runtimepath+=~/.vim/dein/repos/github.com/Shougo/dein.vim
+
+call dein#begin(expand('~/.vim/dein'))
+
+call dein#add('Shougo/dein.vim')
+call dein#add('tpope/vim-fugitive')
+call dein#add('thinca/vim-quickrun')
+
+
+" (中略)
+
+call dein#end()
