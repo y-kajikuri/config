@@ -3,6 +3,7 @@
 	email = y-kajikuri@unext.jp
 [core]
 	excludesfile = /Users/Admin/.gitignore_global
+	editor = vim -c \"set fenc=utf-8\"
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
