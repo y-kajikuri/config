@@ -7,6 +7,9 @@ syntax on
 highlight Normal ctermbg=black ctermfg=grey
 highlight StatusLine term=none cterm=none ctermfg=black ctermbg=grey
 highlight CursorLine term=none cterm=none ctermfg=none ctermbg=darkgray
+" 文字コードを指定
+set encoding=utf-8
+set fileencoding=utf-8
 
 "dein.vim プラグインインストール
 if &compatible
